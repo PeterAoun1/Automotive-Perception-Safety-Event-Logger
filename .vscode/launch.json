@@ -1,0 +1,1 @@
+{ "version": "0.2.0", "configurations": [ { "name": "Run detection.py with args", "type": "python", "request": "launch", "program": "${workspaceFolder}/detection.py", "console": "integratedTerminal", "cwd": "${workspaceFolder}", "args": [ "--model", "yolov8n.pt", "--source", "traffic_1.mp4", "--output", "out.mp4", "--csv", "speeds.csv", "--fps", "30", "--vehicle-only" ] } ] }
